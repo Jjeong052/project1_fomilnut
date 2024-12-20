@@ -99,11 +99,6 @@ nav .depth2 > li:hover > a{
   height: 930px;
   object-fit: cover;
 }
-.mv ul li:nth-child(2){
-  height: 930px;
-  background:url(../img/main-visual2.png) no-repeat center center / cover;
-  position: relative;
-}
 .mv ul li p{
   font-size: 3rem;
   color: #fff;
