@@ -5,11 +5,10 @@ $(document).ready(function(){
   $(".depth2").hide();
   $(".gnb > li").hover(
     function () {
-      // 현재 li의 .depth2만 보이게 설정
-      $(this).children(".depth2").stop().fadeIn();
+      $(".depth2").stop().fadeOut(); // 다른 메뉴 숨김
+      $(this).children(".depth2").stop().fadeIn(); // 현재 메뉴 보임
     },
     function () {
-      // hover가 끝나면 다시 숨김
       $(this).children(".depth2").stop().fadeOut();
     }
   );
