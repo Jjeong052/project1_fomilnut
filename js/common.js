@@ -13,6 +13,20 @@ $(document).ready(function(){
     }
   );
 
+  var mv = new Swiper(".mv", {
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    
+  });
+
+
   var shopSlide = new Swiper(".shop-slide", {
     slidesPerView: 3,
     spaceBetween: 30,
