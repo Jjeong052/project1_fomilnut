@@ -4,7 +4,7 @@ $(document).ready(function(){
 
   $(".depth2").hide();
   $(".gnb > li").hover(function(){
-    $(this).children(".depth2").stop().fadeToggle();    
+    $(this).children(".depth2").stop().fadeIn().siblings().fadeOut();    
   });
 
   var mv = new Swiper(".mv", {
