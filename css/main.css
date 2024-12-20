@@ -99,28 +99,7 @@ nav .depth2 > li:hover > a{
   height: 930px;
   object-fit: cover;
 }
-.mv ul li p{
-  font-size: 3rem;
-  color: #fff;
-  position: absolute;
-  top: 43%;
-  left: 65%;
-  transform: translate(-50%,-50%);
-  letter-spacing: 5px;
-  text-indent: 5px;
-}
-.mv ul li p span{
-  font-size: 8rem;
-  font-weight: 800;
-  letter-spacing: 2cap;
-}
-.mv ul li p span.sp1{
-  display: block;
-  font-size: 2.3rem;
-  font-weight: 200;
-  opacity: 0.5;
-  text-indent: 30px;
-}
+
 
 
 /*container 공통*/
