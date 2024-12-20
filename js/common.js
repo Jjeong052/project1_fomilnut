@@ -3,8 +3,8 @@ $(document).ready(function(){
   AOS.init();
 
   $(".depth2").hide();
-  $(".gnb > li").mouseover(function(){
-    $(this).children(".depth2").stop().fadeIn().siblings().fadeOut();    
+  $(".gnb > li").hover(function(){
+    $(this).children(".depth2").stop().fadeToggle();    
   });
 
   var mv = new Swiper(".mv", {
